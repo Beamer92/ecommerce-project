@@ -1,0 +1,29 @@
+.navbar {
+  background-color: grey;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color:white;
+}
+
+footer {
+  background-color: #222;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer h5 {
+  color: white;
+}
+
+.why-beer {
+  font-size: 30;
+  padding: 30px;
+  font-weight: bold;
+}
