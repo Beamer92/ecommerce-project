@@ -22,6 +22,10 @@ footer h5 {
   color: white;
 }
 
+footer ul li{
+  padding:8px;
+}
+
 .why-beer {
   font-size: 30;
   padding: 30px;
