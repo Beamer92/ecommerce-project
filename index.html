@@ -1,30 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.4/dist/css/foundation.min.css" integrity="sha256-VEEaOnBKVRoYPn4AID/tY/XKVxKEqXstoo/xZ6nemak= sha384-D46t32f421/hB30qwnim2pIcisNN5GU9+6m2Mfnd3dKpTSFidZLa08/1StEiCFId sha512-WkgzH8VKemDfwrp18r+wgbx+oHXOkfd2kJs7ocAXdGDgonXDXh88E90IRtRZRXtO0IHprxYHYlY14h+wyTsUDA==" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="style/style.css">
-
 <head>
   <title>Beer'd Grooming</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="/homepage.css" rel="stylesheet">
 </head>
 
 <body>
-  <section id="pageHead"></section>
-  <section id="carousel"></section>
-  <section id="products">
-    <h2 Featured Products></h2>
-    <section class="product">
-      <img src="" alt="">
-    </section>
-    <section class="product">
-        <img src="" alt="">
-    </section>
-    <section class="product">
-        <img src="" alt="">
-    </section>
-  </section>
-  <section id="signup"></section>
-  <footer></footer>
+
+<!-- begin header -->
+  <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Beer'd Shaving and Grooming Products</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="">All Beer'd Necessities</a>
+              <a class="dropdown-item" href="">Shaving Essentials</a>
+              <a class="dropdown-item" href="">Grooming Action</a>
+              <a class="dropdown-item" href="">Beer</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- close header -->
+
+
+  <!-- begin main chunk of homepage -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Products</h1>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt="product"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Item One</a>
+                </h4>
+                <h5>$19.99</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt="product"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Item Two</a>
+                </h4>
+                <h5>$19.99</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt="product"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Item Three</a>
+                </h4>
+                <h5>$19.99</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <form action="/action_page.php">
+            <div class="container">
+              <h3>Sign Up Today!</h3>
+              <p>Fill in this form to create your dope account.</p>
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              <div class="email">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <button type="submit" class="signupbtn">YASS!</button>
+              </div>
+            </div>
+          </form>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!--close main chunk of homepage-->
+
+  <!-- begin footer -->
+  <footer class="page-footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-3 mt-md-0 mt-3">
+            <h5>Come Visit!</h5>
+            <iframe width="250" height="250" frameborder="0" style="border:0" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10762.208183028279!2d-122.3370742!3d47.59595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906aa3b9f1182b%3A0xa636cd513bba22dc!2sCenturyLink+Field!5e0!3m2!1sen!2sus!4v1540320979744"></iframe>
+          </div>
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <div class="col-md-3 mb-md-0 mb-3">
+              <h5>About Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Our Company</a>
+                </li>
+                <li>
+                  <a href="#!">Our Staff</a>
+                </li>
+                <li>
+                  <a href="#!">Customer Reviews</a>
+                </li>
+                <li>
+                  <a href="#!">Where to Buy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5>Support</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Community Forum</a>
+                </li>
+                <li>
+                  <a href="#!">FAQ</a>
+                </li>
+                <li>
+                  <a href="#!">Report a Problem</a>
+                </li>
+                <li>
+                  <a href="#!">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-md-0 mb-3">
+              <h5>Other</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="whybeer.html">Why Beer?</a>
+                </li>
+                <li>
+                  <a href="#!">Beer Of The Month</a>
+                </li>
+                <li>
+                  <a href="#!">Beers We Like</a>
+                </li>
+                <li>
+                  <a href="#!">Beers We Don't Like</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <!-- close footer -->
 </body>
 </html>
