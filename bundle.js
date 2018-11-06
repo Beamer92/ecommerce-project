@@ -1,1 +1,1 @@
-console.error("Error: Cannot find module '/home/jello/galvanize/projects/ecommerce-project/scripts/main.js' from '/home/jello/galvanize/projects/ecommerce-project'");
+console.error("Error: Cannot find module '/home/beamer92/Documents/ecommerce-project/scripts/main.js' from '/home/beamer92/Documents/ecommerce-project'");
