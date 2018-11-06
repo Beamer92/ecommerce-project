@@ -31,7 +31,13 @@ footer ul li{
   padding: 30px;
   font-weight: bold;
 }
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
 .picture {
   width: 128px;
   height: 128px;
 }
+
