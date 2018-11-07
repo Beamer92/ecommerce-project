@@ -41,3 +41,12 @@ footer ul li{
   height: 128px;
 }
 
+#carousel {
+  margin: 2em;
+  padding: 2em;
+}
+
+img.d-block {
+  height: 500px;
+}
+
