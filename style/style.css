@@ -1,24 +1,51 @@
 .navbar {
   background-color: rgb(104, 53, 6);
+  font-size: x-large;
 }
 
 .navbar-brand {
   color: white;
+  font-size: x-large;
 }
 
 .navbar-brand:hover {
   color:white;
 }
 
+.dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle:hover {
+  color: yellow;
+}
+
+.dropdown-toggle:visited {
+  color: white;
+}
+
+.dropdown-item{
+  font-size: x-large;
+}
+
+.cartcounter {
+  font-size: x-large;
+}
+
+.form-inline {
+  margin-right: 2em;
+}
+
 body {
-  /* background-color: rgb(37, 21, 9); */
   background-image: url("https://static.squarespace.com/static/52f3d20ce4b0cba606f3c1f5/t/52f6d394e4b0030add8520f3/1391907732544/malts-bbhb-background.jpg");
   background-size: cover; 
+  text-align: center;
 }
 
 .prodTitle {
   color:white;
   background-color: rgb(104, 53, 6);
+  padding: 25px 0 25px 0;
 }
 
 .container {
@@ -39,9 +66,10 @@ footer {
   padding: 15px;
   bottom: 0;
   width: 100%;
+  font-size: x-large;
 }
 
-footer h5 {
+footer h3 {
   color: white;
 }
 
@@ -49,15 +77,37 @@ footer ul li{
   padding:8px;
 }
 
-form {
-  border: none;
+.formemail{
+  background-color: #e0e0e0;
+}
+
+form.femail{
+  margin: 50px 0 50px 0;
+  padding: 10px;
+  border:1px solid #ccc
+}
+
+form .container h3{
+  margin: 10px 0px;
+}
+
+.email{
+  font-size: 1.2rem;
+  margin: 10px;
 }
 
 .why-beer {
-  font-size: 30;
+  font-size: 11rem;
   padding: 30px;
   font-weight: bold;
+  color:  rgb(104, 53, 6);
+  text-shadow: 3px 3px 3px whitesmoke;
 }
+.why-beer img {
+  max-height: 1500px;
+  max-width: 1000px; 
+}
+
 .product {
   display: flex;
   flex-direction: row;
@@ -87,4 +137,17 @@ form {
 img.d-block {
   height: 500px;
 }
+
+
+/* @media (min-width: 768px){
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}
+} */
 
