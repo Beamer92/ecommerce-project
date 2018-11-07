@@ -1,11 +1,15 @@
 .navbar {
   background-color: rgb(104, 53, 6);
-  font-size: x-large;
+  font-size: large;
+}
+
+.navbar form p{
+  background-color: rgb(104, 53, 6);
 }
 
 .navbar-brand {
   color: white;
-  font-size: x-large;
+  font-size: large;
 }
 
 .navbar-brand:hover {
@@ -24,16 +28,22 @@
   color: white;
 }
 
-.dropdown-item{
-  font-size: x-large;
+#pMenu.dropdown-item{
+  font-size: large;
 }
 
-.cartcounter {
-  font-size: x-large;
+.dropdown-menu.cart .dropdown-item {
+  font-size: small;
+  padding-left: 1em;
 }
 
-.form-inline {
-  margin-right: 2em;
+ul.cart {
+  margin-left: 60%;
+}
+
+
+button.checkout {
+  margin-left: 10%
 }
 
 body {
@@ -59,22 +69,6 @@ body {
 .signupimg {
   max-height: 100%;
   max-width: 100%;
-}
-
-footer {
-  background-color: rgb(39, 27, 20);
-  padding: 15px;
-  bottom: 0;
-  width: 100%;
-  font-size: x-large;
-}
-
-footer h3 {
-  color: white;
-}
-
-footer ul li{
-  padding:8px;
 }
 
 .formemail{
@@ -124,7 +118,7 @@ form .container h3{
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 2em;
-  max-width: 75%;
+  max-width: 85%;
 }
 
 .carousel-inner {
@@ -135,9 +129,24 @@ form .container h3{
 }
 
 img.d-block {
-  height: 500px;
+  height: 90%;
 }
 
+footer {
+  background-color: rgb(39, 27, 20);
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer ul li{
+  padding:8px;
+}
 
 
 /* @media (min-width: 768px){
@@ -156,4 +165,3 @@ body {
     max-width: 540px;
 }
 } */
-

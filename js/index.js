@@ -14,4 +14,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
     level = parseInt(localStorage.getItem('cartCount'))
   }
 
+
+  
+
 })
