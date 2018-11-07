@@ -1,5 +1,5 @@
 .navbar {
-  background-color: grey;
+  background-color: rgb(104, 53, 6);
 }
 
 .navbar-brand {
@@ -10,10 +10,33 @@
   color:white;
 }
 
+body {
+  /* background-color: rgb(37, 21, 9); */
+  background-image: url("https://static.squarespace.com/static/52f3d20ce4b0cba606f3c1f5/t/52f6d394e4b0030add8520f3/1391907732544/malts-bbhb-background.jpg");
+  background-size: cover; 
+}
+
+.prodTitle {
+  color:white;
+  background-color: rgb(104, 53, 6);
+}
+
+.container {
+  min-width: 65%;
+}
+
+.row {
+  min-width: 100%;
+}
+
+.signupimg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 footer {
-  background-color: #222;
+  background-color: rgb(39, 27, 20);
   padding: 15px;
-  /* position: absolute; */
   bottom: 0;
   width: 100%;
 }
@@ -24,6 +47,10 @@ footer h5 {
 
 footer ul li{
   padding:8px;
+}
+
+form {
+  border: none;
 }
 
 .why-beer {
@@ -42,8 +69,19 @@ footer ul li{
 }
 
 #carousel {
-  margin: 2em;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 2em;
+  max-width: 75%;
+}
+
+.carousel-inner {
+  border: 15px solid rgb(104, 53, 6);
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img.d-block {
