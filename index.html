@@ -5,13 +5,11 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<!-- <link href="/homepage.css" rel="stylesheet"> -->
 <link rel="stylesheet" href="style/style.css">
 <head>
   <title>Beer'd Grooming</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- <link href="/homepage.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -38,8 +36,7 @@
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-warning my-2 my-sm-0 cartcounter" type="submit">Shopping Cart</button>
       </form>
     </div>
   </nav>
@@ -56,7 +53,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="/imgs/NickO.png" alt="First slide">
+          <img class="d-block w-100" src="/img/NickO.png" alt="First slide">
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="http://r.ddmcdn.com/s_f/o_1/DSC/uploads/2015/10/gold-rush-S6-bio-tony-beets.jpg" alt="Second slide">
@@ -89,7 +86,7 @@
                 <h4 class="card-title">
                   <a href="#">Straight Razor</a>
                 </h4>
-                <h5>$165.00</h5>
+                <h3>$165.00</h3>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -103,7 +100,7 @@
                 <h4 class="card-title">
                   <a href="#">Grooming Scissors</a>
                 </h4>
-                <h5>$65.00</h5>
+                <h3>$65.00</h3>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
@@ -117,7 +114,7 @@
                 <h4 class="card-title">
                   <a href="#">Newcastle</a>
                 </h4>
-                <h5>$3.50</h5>
+                <h3>$3.50</h3>
               </div>
               <div class="card-footer">
                 <small class="text-muted">&#9733; &#9733; &#9733; &#9734; &#9734;</small>
@@ -125,8 +122,8 @@
             </div>
           </div>
         </div>
-        <div class="form">
-          <form action="/action_page.php">
+        <div class="formemail">
+          <form action="/action_page.php" class="femail">
               <div class="row">
                 <div class="col-lg-3 mol-md-3 mb-3">
                   <img class="signupimg" src="https://cdn.shopify.com/s/files/1/1022/0245/products/BeardBeer20151020-SmallWeb-1-2_1024x1024.jpg?v=1448604704" alt="">
@@ -136,7 +133,7 @@
                 <p>Fill in this form to create your dope account.</p>
                 <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                   <div class="email">
-                    <label for="email"><b>Email</b></label>
+                    <label for="email"><b>Email </b></label>
                     <input type="text" placeholder="Enter Email" name="email" required>
                     <button type="submit" class="signupbtn">YASS!</button>
                   </div>
@@ -159,12 +156,12 @@
       <div class="container-fluid text-center text-md-left">
         <div class="row">
           <div class="col-md-3 mt-md-0 mt-3">
-            <h5>Come Visit!</h5>
+            <h3>Come Visit!</h3>
             <iframe width="250" height="250" frameborder="0" style="border:0" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10762.208183028279!2d-122.3370742!3d47.59595445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906aa3b9f1182b%3A0xa636cd513bba22dc!2sCenturyLink+Field!5e0!3m2!1sen!2sus!4v1540320979744"></iframe>
           </div>
           <hr class="clearfix w-100 d-md-none pb-3">
           <div class="col-md-3 mb-md-0 mb-3">
-              <h5>About Us</h5>
+              <h3>About Us</h3>
               <ul class="list-unstyled">
                 <li>
                   <a href="#!">Our Company</a>
@@ -181,7 +178,7 @@
               </ul>
             </div>
             <div class="col-md-3 mb-md-0 mb-3">
-              <h5>Support</h5>
+              <h3>Support</h3>
               <ul class="list-unstyled">
                 <li>
                   <a href="#!">Community Forum</a>
@@ -198,7 +195,7 @@
               </ul>
             </div>
             <div class="col-md-3 mb-md-0 mb-3">
-              <h5>Other</h5>
+              <h3>Other</h3>
               <ul class="list-unstyled">
                 <li>
                   <a href="whybeer.html">Why Beer?</a>
