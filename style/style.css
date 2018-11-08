@@ -1,36 +1,107 @@
 .navbar {
-  background-color: grey;
+  background-color: rgb(104, 53, 6);
+  font-size: large;
+}
+
+.navbar form p{
+  background-color: rgb(104, 53, 6);
 }
 
 .navbar-brand {
   color: white;
+  font-size: large;
 }
 
 .navbar-brand:hover {
   color:white;
 }
 
-footer {
-  background-color: #222;
-  padding: 15px;
-  /* position: absolute; */
-  bottom: 0;
-  width: 100%;
-}
-
-footer h5 {
+.dropdown-toggle {
   color: white;
 }
 
-footer ul li{
-  padding:8px;
+.dropdown-toggle:hover {
+  color: yellow;
+}
+
+.dropdown-toggle:visited {
+  color: white;
+}
+
+#pMenu.dropdown-item{
+  font-size: large;
+}
+
+.dropdown-menu.cart .dropdown-item {
+  font-size: small;
+  padding-left: 1em;
+}
+
+ul.cart {
+  margin-left: 45%;
+}
+
+
+button.checkout {
+  margin-left: 10%
+}
+
+body {
+  background-image: url("https://static.squarespace.com/static/52f3d20ce4b0cba606f3c1f5/t/52f6d394e4b0030add8520f3/1391907732544/malts-bbhb-background.jpg");
+  background-size: cover; 
+  text-align: center;
+}
+
+.prodTitle {
+  color:white;
+  background-color: rgb(104, 53, 6);
+  padding: 25px 0 25px 0;
+}
+
+.container {
+  min-width: 65%;
+}
+
+.row {
+  min-width: 100%;
+}
+
+.signupimg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.formemail{
+  background-color: #e0e0e0;
+}
+
+form.femail{
+  margin: 50px 0 50px 0;
+  padding: 10px;
+  border:1px solid #ccc
+}
+
+form .container h3{
+  margin: 10px 0px;
+}
+
+.email{
+  font-size: 1.2rem;
+  margin: 10px;
 }
 
 .why-beer {
-  font-size: 30;
+  font-size: 11rem;
   padding: 30px;
   font-weight: bold;
+  color:  rgb(104, 53, 6);
+  text-shadow: 3px 3px 3px whitesmoke;
 }
+.why-beer img {
+  max-height: 1500px;
+  max-width: 1000px; 
+}
+
 .product {
   display: flex;
   flex-direction: row;
@@ -41,3 +112,51 @@ footer ul li{
   height: 128px;
 }
 
+#carousel {
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 2em;
+  max-width: 85%;
+}
+
+.carousel-inner {
+  border: 15px solid rgb(104, 53, 6);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.d-block {
+  height: 90%;
+}
+
+footer {
+  background-color: rgb(39, 27, 20);
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+}
+
+footer h5 {
+  color: white;
+}
+
+footer ul li{
+  padding:8px;
+}
+
+
+/*  @media (min-width: 768px){
+  .container {
+      max-width: 720px;
+  }
+}
+  
+  @media (min-width: 576px){
+  .container {
+      max-width: 540px;
+  }
+} */
