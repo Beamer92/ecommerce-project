@@ -1,4 +1,15 @@
-document.addEventListener('DOMContentLoaded', function(e) {
+document.querySelector('#emailSignup').addEventListener('submit', function(event){
+    event.preventDefault()
+    document.querySelector('#emailSignup').reset()
+    alert('Thank you for signing up!')
+})
+
+document.querySelector('#termsAndPriv').addEventListener('click', function(event){
+  event.preventDefault()
+  alert('So much spam')
+})
+
+document.addEventListener('DOMContentLoaded', function() {
 
   if (localStorage.getItem('cartCount') === null) {
     localStorage.setItem('cartCount', 0)
@@ -14,4 +25,4 @@ document.addEventListener('DOMContentLoaded', function(e) {
     level = parseInt(localStorage.getItem('cartCount'))
   }
 
-})
+  })

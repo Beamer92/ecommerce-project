@@ -1,15 +1,8 @@
 
 body {
-    padding-top: 50px;
     text-align: center;
   }
-  
-  @media (min-width: 992px) {
-    body {
-      padding-top: 56px;
-    }
-  }
-  
+
   @media (min-width: 768px){
   .container {
       max-width: 720px;
