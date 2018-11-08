@@ -5,8 +5,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="./js/index.js"></script>
+<link href="homepage.css" rel="stylesheet">
 <link rel="stylesheet" href="style/style.css">
-<script src="js/index.js"></script>
 <head>
   <title>Beer'd Grooming</title>
   <meta charset="utf-8">
@@ -133,8 +134,9 @@
             </div>
           </div>
         </div>
+
         <div class="formemail">
-          <form action="/action_page.php" class="femail">
+          <form id="emailSignup" action="/action_page.php" class="femail">
               <div class="row">
                 <div class="col-lg-3 mol-md-3 mb-3">
                   <img class="signupimg" src="https://cdn.shopify.com/s/files/1/1022/0245/products/BeardBeer20151020-SmallWeb-1-2_1024x1024.jpg?v=1448604704" alt="">
@@ -142,7 +144,7 @@
                <div class="col-lg-6 col-md-6 mb-4">
                 <h5>Sign Up Today!</h5>
                 <p>Fill in this form to create your dope account.</p>
-                <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                <p id="termsAndPriv">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
                   <div class="email">
                     <label for="email"><b>Email </b></label>
                     <input type="text" placeholder="Enter Email" name="email" required>

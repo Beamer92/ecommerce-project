@@ -1,5 +1,14 @@
-document.addEventListener('DOMContentLoaded', function(e) {
-  // let cCount = 0
+document.querySelector('#emailSignup').addEventListener('submit', function(event){
+    event.preventDefault()
+    document.querySelector('#emailSignup').reset()
+    alert('Thank you for signing up!')
+})
+
+document.querySelector('#termsAndPriv').addEventListener('click', function(event){
+  event.preventDefault()
+  alert('So much spam')
+})
+
   let cartItems = {}
   const sCart = document.getElementById("navbarDropdown2")
   const sCartdd = document.getElementById("ddMenuCart")
@@ -58,5 +67,3 @@ document.addEventListener('DOMContentLoaded', function(e) {
 
 setCart(tTotals(cartItems))
 createCartdd(cartItems)
-
-})
