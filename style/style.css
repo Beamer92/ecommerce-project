@@ -148,6 +148,22 @@ footer ul li{
   padding:8px;
 }
 
+.imgbtn {
+  align-self: center;
+  max-width: 50%;
+  visibility: hidden;
+}
+
+.imageContainer {
+  display:flex;
+  flex-direction: column;
+}
+
+.imageContainer:hover .imgbtn {
+  background-color: burlywood;
+  visibility: visible;
+}
+
 
 /*  @media (min-width: 768px){
   .container {
