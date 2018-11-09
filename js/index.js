@@ -1,5 +1,5 @@
 const products = require(`./productsDatabase`)
-
+console.log("BEER!")
 let cartItems = {}
 const sCart = document.getElementById("navbarDropdown2")
 const sCartdd = document.getElementById("ddMenuCart")
