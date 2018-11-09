@@ -157,6 +157,7 @@ footer ul li{
 .imageContainer {
   display:flex;
   flex-direction: column;
+  height:28em;
 }
 
 .imageContainer:hover .imgbtn {
