@@ -64,7 +64,7 @@ function createCartdd(obj) {
     let newItem = document.createElement("a")
     newItem.className = "dropdown-item"
     newItem.href="#"
-    newItem.innerHTML= `${obj[i].name} : $${(obj[i].Qty) * (obj[i].Price)}`
+    newItem.innerHTML= `${obj[i].name}(${obj[i].Qty}) : $${(obj[i].Qty) * (obj[i].Price)}`
 
     sCartdd.insertBefore(newItem, sCartdd.firstChild)
   }
