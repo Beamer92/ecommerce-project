@@ -97,7 +97,6 @@ const addClickFunctionality = () => {
             }
             else cartItems = {}
 
-            console.log(cartItems)
             if(!cartItems || !cartItems.hasOwnProperty(product.key)){
               cartItems[product.key] = {name: product.name, Qty: 1, Price: product.price}
             }
