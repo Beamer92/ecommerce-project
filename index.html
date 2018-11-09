@@ -5,7 +5,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script defer src="./js/index.js"></script>
+<script defer src="./bundle.js"></script>
 <link rel="stylesheet" href="style/style.css">
 <head>
   <title>Beer'd Grooming</title>
@@ -45,9 +45,9 @@
           Shopping Cart
         </a>
         <div class="dropdown-menu cart" aria-labelledby="navbarDropdown2" id="ddMenuCart">
-          <!-- <a class="dropdown-item" href="#">ITEM x 1 : $10</a> -->
 
-          <button class="btn btn-outline-warning checkout">Checkout</button>
+          <button class="btn btn-outline-warning checkout">Checkout</button><br>
+          <a href='' id="clrCart" style="font-size:small; padding-left: 1em;">Clear Cart</a>
         </div>
       </li>
       </ul>
@@ -94,7 +94,7 @@
             <div class="card h-100">
               <div class='imageContainer'>
               <a href="#"><img class="card-img-top image" src="https://www.bokerusa.com/media/image/thumbnail/STANDARD-2554759a03df291fd8-600x500.jpg" alt="product"></a>
-              <button class="imgbtn" id='0'>Add to Cart</button>
+              <button class="imgbtn straight" id='0'>Add to Cart</button>
               </div>
               <div class="card-body">
                 <h4 class="card-title">
@@ -111,7 +111,7 @@
             <div class="card h-100">
               <div class='imageContainer'>
               <a href="#"><img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0521/1557/products/DGC___scissors_1024x1024.jpg?v=1448918408" alt="product"></a>
-              <button class="imgbtn" id='1'>Add to Cart</button>
+              <button class="imgbtn scissors" id='1'>Add to Cart</button>
             </div>
               <div class="card-body">
                 <h4 class="card-title">
@@ -128,7 +128,7 @@
             <div class="card h-100">
               <div class='imageContainer'>
               <a href="#"><img class="card-img-top" src="https://groceries.morrisons.com/productImages/120/120056011_0_640x640.jpg?identifier=8938170fdc9490c8b7c293d35e72ba76" alt="product"></a>
-              <button class="imgbtn" id='2'>Add to Cart</button>
+              <button class="imgbtn newcastle" id='2'>Add to Cart</button>
               </div>
               <div class="card-body">
                 <h4 class="card-title">
