@@ -1,3 +1,5 @@
+const products = require(`./js/productsDatabase`)
+
 module.exports = addClickFunctionality = () => {
     const querySelectors =[]
     let a = ''
@@ -10,9 +12,16 @@ module.exports = addClickFunctionality = () => {
     }
 
     querySelectors.map((ele) => {
+        for(let i = 0; i < products.length; i++){
+            if(ele.includes(products[i].key)) {
+                const product = products[i]
+            }
+        }
+
         ele.addEventListener('click', (e) => {
             e.preventDefault()
-            //do the thing here
+
+            //do localstorage stuff from product here name/price
         })
     })
 }
