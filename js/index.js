@@ -49,6 +49,17 @@ function setCart(arr) {
 }
 
 function createCartdd(obj) {
+  if(sCartdd.hasChildNodes()) {
+    let children = sCartdd.childNodes
+
+    for(let i in children)
+    {
+      if(children[i].className === "dropdown-item") {
+        sCartdd.removeChild(children[i])
+      }
+    }
+  }
+  
   for(let i in obj) {
     let newItem = document.createElement("a")
     newItem.className = "dropdown-item"
@@ -82,29 +93,30 @@ const addClickFunctionality = () => {
 
         ele.addEventListener('click', (e) => {
             e.preventDefault()
-            // console.log(product)
-            cartItems = JSON.parse(localStorage.getItem('cartItems'))
-            // console.log(cartItems)
-            // cartItems.product.key = 
-            //do localstorage stuff from product here name/price
+
+            if(localStorage.getItem('cartItems') !== null){
+              cartItems = JSON.parse(localStorage.getItem('cartItems'))
+            }
+            else cartItems = {}
+
+            console.log(cartItems)
+            if(!cartItems || !cartItems.hasOwnProperty(product.key)){
+              cartItems[product.key] = {name: product.name, Qty: 1, Price: product.price}
+            }
+            else {
+              cartItems[product.key].Qty++
+            }
+
+            localStorage.setItem('cartItems', JSON.stringify(cartItems))
+            setCart(tTotals(cartItems))
+            createCartdd(cartItems)
+            window.location.reload(true)
         })
     })
 }
 
 addClickFunctionality()
-
-
-  // if (localStorage.getItem('cartItems') === null) {
-  //     localStorage.setItem('cartItems', JSON.stringify({
-  //     NewCastle: {name: "NewCastle", Qty: 4, Price: 30},
-  //     Razor: {name: "Razor", Qty:1, Price: 165}
-  //   }))
-
-  //  cartItems = JSON.parse(localStorage.getItem('cartItems'))
-  // }
-  // else {
 cartItems = JSON.parse(localStorage.getItem('cartItems'))
-
 
 
 setCart(tTotals(cartItems))
