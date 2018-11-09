@@ -81,8 +81,6 @@ const addClickFunctionality = () => {
         i++
       }
 
-    console.log(querySelectors)
-
     querySelectors.map((ele) => {
         let product
         for(let i = 0; i < products.length; i++){

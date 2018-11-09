@@ -1,6 +1,6 @@
 products = [
-    {key: 'straight', name: 'Safety Razor', image: 'https://media.easycomforts.com/images/p337718b.jpg', price: 25.00},
-    {key: 'safety', name: 'Straight Razor', image: 'https://www.bokerusa.com/media/image/thumbnail/STANDARD-2554759a03df291fd8-600x500.jpg', price: 165.00},
+    {key: 'safety', name: 'Safety Razor', image: 'https://media.easycomforts.com/images/p337718b.jpg', price: 25.00},
+    {key: 'straight', name: 'Straight Razor', image: 'https://www.bokerusa.com/media/image/thumbnail/STANDARD-2554759a03df291fd8-600x500.jpg', price: 165.00},
     {key: 'coldSmoke', name: 'Cold Smoke Ale', image: 'https://c1.staticflickr.com/7/6005/5960021970_94dceb83d5.jpg', price: 30.00},
     {key: 'bigSky', name: 'Big Sky Brew', image: 'http://morrisdistributing.com/wp-content/uploads/2015/12/Z-BigSky-beers.jpg', price: 8.00},
     {key: 'newcastle', name: 'Newcastle', image: 'https://groceries.morrisons.com/productImages/120/120056011_0_640x640.jpg?identifier=8938170fdc9490c8b7c293d35e72ba76', price: 3.50},
