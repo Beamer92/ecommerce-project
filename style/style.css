@@ -160,6 +160,16 @@ footer ul li{
   height:28em;
 }
 
+.image {
+  display:flex;
+  flex-direction: column;
+}
+
+.image:hover .imgbtn {
+  background-color: burlywood;
+  visibility: visible;
+}
+
 .imageContainer:hover .imgbtn {
   background-color: burlywood;
   visibility: visible;
